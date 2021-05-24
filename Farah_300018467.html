@@ -1,0 +1,92 @@
+<!Doctype html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="styleSheet.css">
+</head>
+
+<body>
+    <p><img src="porscheLogo.jpeg" alt="">
+
+    </p>
+</body>
+<fieldset>
+    <!--Title Tag-->
+    <legend>Porsche Website Survey</legend>
+    <p><a href="https://www.porsche.com">
+            <Text>Porsche website</Text>
+        </a></p>
+    <form>
+        <em><label> FirstName:
+                <input name="Name" type="text" size="25"> </label></em>
+        <em><label> LastName:
+                <input name="lastName" type="text" size="25"> </label></em>
+        <em><label> Car of interrest:
+                <input name="text" type="text"> </label></em> <br>
+
+        <!--Question with input written response-->
+        <!--Extra feauture hover on top and picture comes up-->
+        <p><label>How long have you been wanted to purchase this car?
+                <input type="text" size="35"> </label></p>
+
+
+        <!--Single choice question-->
+        <br>Color liked most on vehicule:<br>
+        <br>
+        <span class="choice1">
+            <input type="radio" name="color" value="c1" checked>Carrera white metalic<br>
+        </span>
+
+        <span class="choice2">
+            <input type="radio" name="color" value="c2">Coffee Beige metallic<br>
+        </span>
+
+        <span class="choice3">
+            <input type="radio" name="color" value="c3">Frozenberry metallic<br>
+        </span>
+
+        <span class="choice4">
+            <input type="radio" name="color" value="c4">Frozen blue metallic<br><br>
+        </span>
+
+
+
+        <!--What is the-->
+
+        <!--Multiple choices answer question-->
+        <br>Please choose the top 3 car models of your liking:<br>
+        <!--Put in place picture of each using the colors above -->
+        <br>
+        <!--1-->
+
+        <p class="Taycan"><input type="checkbox" name="l1">Taycan Model<br></p>
+        <img class="taycanImg" src="taycan.jpeg">
+
+        <!--2-->
+        <p class="Panemera"><input type="checkbox" name="l2">Panemera Model<br></p>
+        <img class="pImg" src="panemera.jpeg">
+
+        <!--3-->
+        <p class="c911"><input type="checkbox" name="l3">911 Model<br></p>
+        <img class="c911Img" src="911m.jpeg">
+        <!--4-->
+        <p class="cayenne"><input type="checkbox" name="l4">Cayenne Model<br></p>
+        <img class="cImg" src="cayenne.jpeg">
+
+
+        <br>
+        Comments: <br>
+        <textarea name="comments" rows="3" maxlength="200" cols="60"></textarea><br><br><br>
+        <p>
+            <input type="submit" value="Submit">
+        </p>
+
+    </form>
+
+
+
+
+</fieldset>
+<footer>Created by: Exotic Enthusiast</footer>
+
+</html>

@@ -1,0 +1,52 @@
+em {color:#B8A60B}
+.choice1{
+    color:#E6E6FA
+
+}
+
+.choice2{
+    color:#DEB887
+
+}
+
+.choice3{
+    color:#BC8F8F
+
+}
+
+.choice4{
+    color:#B0E0E6
+
+}
+.taycanImg{
+    display:none;
+}
+.Taycan:hover ~ .taycanImg{
+    display: block;
+
+}
+
+
+.pImg{
+    display:none;
+}
+.Panemera:hover ~ .pImg{
+    display: block;
+
+}
+
+.c911Img{
+    display:none;
+}
+.c911:hover ~ .c911Img{
+    display: block;
+
+}
+
+.cImg{
+    display:none;
+}
+.cayenne:hover ~ .cImg{
+    display: block;
+
+}
